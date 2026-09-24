@@ -13,7 +13,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git ''
+                git 'https://github.com/sidak-max/labexam.git'
             }
         }
 
